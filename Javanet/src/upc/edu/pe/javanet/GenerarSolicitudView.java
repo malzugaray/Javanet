@@ -1,10 +1,15 @@
 package upc.edu.pe.javanet;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+
+import org.datacontract.schemas._2004._07.SolicitudService_Dominio.MyExcepcion;
+import org.datacontract.schemas._2004._07.SolicitudService_Dominio.SolicitudDetalle;
 
 import upc.edu.pe.javanet.solicitudService.Solicitud;
-import upc.edu.pe.javanet.solicitudService.SolicitudDetalle;
+import upc.edu.pe.javanet.solicitudService.SolicitudDetalleUI;
 import upc.edu.pe.javanet.solicitudService.SolicitudService;
 
 import com.vaadin.data.Item;
@@ -26,6 +31,7 @@ import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.FormLayout;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.HorizontalLayout;
+import com.vaadin.ui.JavaScript;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.Table;
@@ -39,7 +45,8 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 
 	public static final String NAME = "";
 
-    Label text = new Label();
+	Label lblMsgError;
+	Label text = new Label();
     SolicitudService service = SolicitudService.createDemoService();
 
     Button logout = new Button("Logout", new Button.ClickListener() {
@@ -61,14 +68,7 @@ public class GenerarSolicitudView extends CustomComponent implements View,
     	Label titulo = new Label();
     	titulo.setValue("Solicitud de consultores");
     	titulo.addStyleName("titulo"); 
-         
-    	VerticalLayout frmDatosCliente = new VerticalLayout();
-		frmDatosCliente.setSizeUndefined();
-		frmDatosCliente.setWidth("100%"); // Default
-		frmDatosCliente.setHeight("50%"); // Default
-		
-		frmDatosCliente.setMargin(true);
-		
+             		
 		VerticalLayout frmSolicitudConsultores = new VerticalLayout();
 		frmSolicitudConsultores.setSizeUndefined();
 		frmSolicitudConsultores.setWidth("100%"); // Default
@@ -86,33 +86,17 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 		frmMsgError.setWidth("100%"); // Default
 		frmMsgError.setHeight("50%"); // Default
 		frmMsgError.setMargin(true);
-		
 	
 		
-		HorizontalLayout hlCliente = new HorizontalLayout();
-		hlCliente.setWidth("100%");
-		hlCliente.setHeight("20%"); // Default
-		Label lblCliente = new Label("Cliente");
-		lblCliente.setWidth("50%");
-		lblCliente.setHeight("10%"); // Default
-		TextField txtNombreCliente = new TextField("");
+		FormLayout flCliente = new FormLayout();
+		
+		TextField txtNombreCliente = new TextField("Cliente");
 		txtNombreCliente.setValue("Banco de Credito del Perú");
 		txtNombreCliente.setReadOnly(true);
 		txtNombreCliente.setWidth("100%");
 		txtNombreCliente.setHeight("10%"); // Default
-		hlCliente.addComponent(lblCliente);
-		hlCliente.addComponent(txtNombreCliente);
-		hlCliente.setComponentAlignment(lblCliente, Alignment.MIDDLE_RIGHT);
-		hlCliente.setComponentAlignment(txtNombreCliente, Alignment.MIDDLE_LEFT);
-		frmDatosCliente.addComponent(hlCliente);
-		frmDatosCliente.setComponentAlignment(hlCliente, Alignment.MIDDLE_CENTER);
-				
-		HorizontalLayout hlProyecto = new HorizontalLayout();
-		hlProyecto.setWidth("100%");
-		Label lblProyecto = new Label("Nombre Proyecto");
-		lblProyecto.setWidth("80%");
-		lblProyecto.setHeight("10%"); // Default
-		final ComboBox cmbProyecto = new ComboBox("");
+		
+		final ComboBox cmbProyecto = new ComboBox("Nombre Proyecto");
 		cmbProyecto.setWidth("100%");
 		cmbProyecto.setHeight("10%"); // Default
 		cmbProyecto.setNullSelectionAllowed(true);
@@ -122,35 +106,24 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 		cmbProyecto.addItem("Proyecto Home Banking");
 		cmbProyecto.addItem("Proyecto Compra Virtual");
 		cmbProyecto.addItem("Proyecto Televentas");
-		//cmbProyecto.setWidth("400px");
 		cmbProyecto.setImmediate(true);
-		
-		HorizontalLayout hlProyectoMsg = new HorizontalLayout();
-		hlProyectoMsg.setWidth("100%");
-		hlProyectoMsg.setHeight("10%");
-		//new Notification("Seleccione un proyecto!",,Type.).show(Page.getCurrent());
-		
 		
 		final Label lblProyectoMsgError = new Label("Seleccione un proyecto!");
 		lblProyectoMsgError.setVisible(false);
 		lblProyectoMsgError.setWidth("100%");
 		lblProyectoMsgError.setHeight("10%");
-		hlProyectoMsg.addComponent(new Label(""));
-		hlProyectoMsg.addComponent(lblProyectoMsgError);
-		hlProyectoMsg.setComponentAlignment(lblProyectoMsgError, Alignment.MIDDLE_LEFT);
+				
+		flCliente.addComponent(txtNombreCliente);
+		flCliente.setComponentAlignment(txtNombreCliente, Alignment.MIDDLE_LEFT);
+    
+		flCliente.addComponent(cmbProyecto);
+		flCliente.setComponentAlignment(cmbProyecto, Alignment.MIDDLE_LEFT);
+		flCliente.addComponent(lblProyectoMsgError);
+		flCliente.setComponentAlignment(lblProyectoMsgError,  Alignment.MIDDLE_LEFT);
 		
-		hlProyecto.addComponent(lblProyecto);
-		hlProyecto.addComponent(cmbProyecto);
-		hlProyecto.setComponentAlignment(lblProyecto, Alignment.MIDDLE_RIGHT);
-		hlProyecto.setComponentAlignment(cmbProyecto, Alignment.MIDDLE_LEFT);
-		frmDatosCliente.addComponent(hlProyecto);
-		frmDatosCliente.setComponentAlignment(hlProyecto, Alignment.MIDDLE_CENTER);
-		frmDatosCliente.addComponent(hlProyectoMsg);
-		frmDatosCliente.setComponentAlignment(hlProyectoMsg, Alignment.MIDDLE_CENTER);
-		
+				
 		
 		FormLayout flDatosSolicitus = new FormLayout();
-		
 				
 		// combobox para cantidad de colaboradores
 		final ComboBox cmbCantColab = new ComboBox("Cantidad de Colaboradores");
@@ -244,31 +217,18 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 		flDatosSolicitus.addComponent(txtComentario);
 		flDatosSolicitus.setComponentAlignment(txtComentario, Alignment.MIDDLE_LEFT);
 		
+		
+		frmSolicitudConsultores.addComponent(flCliente);
+		frmSolicitudConsultores.setComponentAlignment(flCliente, Alignment.MIDDLE_CENTER);
 		frmSolicitudConsultores.addComponent(flDatosSolicitus);
 		frmSolicitudConsultores.setComponentAlignment(flDatosSolicitus, Alignment.MIDDLE_CENTER);
 		
-		final Label lblMsgError = new Label("La Solicitud se creó con éxito");
+		lblMsgError = new Label("La Solicitud se creó con éxito");
 		lblMsgError.setWidth("100%");
 		lblMsgError.setHeight("10%"); // Default
 		lblMsgError.setVisible(false);
 		
-		 /*Grid solicitudList = new Grid();
-		 solicitudList.setContainerDataSource(new BeanItemContainer<SolicitudDetalle>(
-	                SolicitudDetalle.class));
-		 solicitudList.setColumnOrder("cantidad", "perfil", "tecnologia", "experRubro");
-		 solicitudList.removeColumn("id");
-		 solicitudList.removeColumn("comentario");*/
-		 //solicitudList.removeColumn("phone");
-		 //solicitudList.setSelectionMode(Grid.SelectionMode.SINGLE);
-		 /*solicitudList.addSelectionListener(new SelectionListener() {
-
-	            @Override
-	            public void select(SelectionEvent event) {
-	                contactForm.edit((Contact) contactList.getSelectedRow());
-	            }
-	        });*/
-		// refreshSolicitudes(solicitudList);
-		
+				
 		final Table tableDetalle = new Table();
 		tableDetalle.addStyleName("components-inside");
 		
@@ -331,12 +291,12 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 		    	
 		    	if(verifica == 0){
 		    		
-		    		//tableDetalle.size();     
-		    		//Notification.show("Tala tiene " +
-		    		//		tableDetalle.size() + " clicked.");
-		    		//int verificaGrabar = service.grabar(tableDetalle);
-		    		int verificaGrabar = grabar(tableDetalle);
-		    		if(verificaGrabar == 0){
+		    		int codCliente = 100;
+		    		int codProyecto = 200;
+		    		int verificaGrabar;
+					verificaGrabar = grabar(codCliente, codProyecto, tableDetalle);
+					
+		    		if(verificaGrabar == 1){
 		    			lblMsgError.setVisible(true);
 		    		}else{
 		    			lblMsgError.setValue("ERROR! La solicitud no se generó");
@@ -448,23 +408,24 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 		});
 		
 		
-		frmSolConBotones.setWidth("600px");
+		frmSolConBotones.setWidth("300px");
 		frmSolConBotones.setHeight("10%");
 		frmSolConBotones.addComponent(btnAgregar);
 		frmSolConBotones.addComponent(btnCancelar);
+		frmSolConBotones.setMargin(new MarginInfo  (false, true, true, false));
 		frmMsgError.addComponent(lblMsgError);
 		
 		 VerticalLayout bienvenido = new VerticalLayout(text);
 		 bienvenido.setSpacing(true);
 		 bienvenido.setCaption(text.getValue());
-	     bienvenido.setMargin(new MarginInfo(true, true, false, true));
+	     bienvenido.setMargin(new MarginInfo(false, true, false, true));
 	     
 	     VerticalLayout salir = new VerticalLayout(logout);
 	     salir.setSpacing(true);
-		 salir.setMargin(new MarginInfo  (true, true, true, true));
+		 salir.setMargin(new MarginInfo  (false, true, true, true));
 	    	
     	
-		VerticalLayout frmSolColabPadre = new VerticalLayout(titulo, frmDatosCliente,frmSolicitudConsultores, frmSolConBotones, frmMsgError);
+		VerticalLayout frmSolColabPadre = new VerticalLayout(titulo, frmSolicitudConsultores, frmSolConBotones, frmMsgError);
 		frmSolColabPadre.setSizeFull();
 		frmSolColabPadre.setSpacing(true);
 		frmSolColabPadre.setComponentAlignment(titulo, Alignment.TOP_LEFT);
@@ -513,37 +474,17 @@ public class GenerarSolicitudView extends CustomComponent implements View,
 	
 	
 	
-	//void refreshSolicitudes(Grid solicitudList) {
-	//	solicitudList.setContainerDataSource(new BeanItemContainer<SolicitudDetalle>(
-	//                SolicitudDetalle.class, service.findAll()));
-	     //contactForm.setVisible(false);
-    //}
-	//final HashMap<Integer,TextField> valueFields =
-	//	    new HashMap<Integer,TextField>();
-	//BeanFieldGroup<Item> formFieldBindings;
-	public int grabar(Table tableDetalle) {
-		ArrayList arrayList = new ArrayList();
-		Solicitud solicitud = new Solicitud();
-		solicitud.setId(1);
-		solicitud.setCodProyecto(1);
-		Item item = tableDetalle.getItem(1);
-		Property prop =  item.getItemProperty(1);
+	public int grabar(int codCliente, int codProyecto, Table tableDetalle) {
 		
-		Notification.show("datos " + tableDetalle.getItem(1));
-		//Notification.show("datos " + prop.getValue());
-		//formFieldBindings = BeanFieldGroup
-              //  .bindFieldsBuffered(tableDetalle.getItem(1), this);
-		//valueFields = tableDetalle.getItem(1);
-		String cadena =  tableDetalle.getItem(1).toString();
-		String caden [] = cadena.split("");
+		try {
+			int resultado = service.grabar(codCliente, codProyecto, tableDetalle);
+    		return resultado;
+    				
+        } catch (RemoteException ex) {  
+        	lblMsgError.setValue(ex.getMessage());
+        }
+		return 0;
 		
-		for(int i=0; i< tableDetalle.size(); i++){
-			SolicitudDetalle solicitudDetalle = new SolicitudDetalle();
-			solicitudDetalle.setId(1);
-			//solicitudDetalle.setCantidad(tableDetalle.getItem(new Integer(i));
-			
-		}
-		return 1;
 	}
    
     

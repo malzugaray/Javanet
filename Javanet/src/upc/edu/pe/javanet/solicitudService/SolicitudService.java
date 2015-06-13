@@ -2,10 +2,15 @@ package upc.edu.pe.javanet.solicitudService;
 
 //import org.apache.commons.beanutils.BeanUtils;
 
+import java.rmi.RemoteException;
 import java.util.*;
 
 import com.vaadin.ui.Notification;
 import com.vaadin.ui.Table;
+
+import org.tempuri.ICrearSolicitudProxy;
+import org.datacontract.schemas._2004._07.SolicitudService_Dominio.SolicitudDetalle;
+import org.datacontract.schemas._2004._07.SolicitudService_Dominio.MyExcepcion;
 
 public class SolicitudService {
 	
@@ -91,20 +96,45 @@ public class SolicitudService {
         //solicitudes.put(entry.getId(), entry);
     }
     
-    public int grabar(Table tableDetalle) {
-		ArrayList arrayList = new ArrayList();
-		Solicitud solicitud = new Solicitud();
-		solicitud.setId(1);
-		solicitud.setCodProyecto(1);
-		Notification.show("datos " + tableDetalle.getItem(1).getItemProperty(1));
+    public int grabar(int codCliente, int codProyecto, Table tableDetalle) throws RemoteException {
 		
-		for(int i=0; i< tableDetalle.size(); i++){
-			SolicitudDetalle solicitudDetalle = new SolicitudDetalle();
-			solicitudDetalle.setId(1);
-			//solicitudDetalle.setCantidad(tableDetalle.getItem(new Integer(i));
-			
-		}
-		return 1;
+    	ICrearSolicitudProxy proxy = new ICrearSolicitudProxy();
+  
+    	//SolicitudDetalle[] listaDetalle; 
+    	SolicitudDetalle listaDetalle[];
+        listaDetalle = new SolicitudDetalle[tableDetalle.size()];
+    			
+    			
+		//Notification.show("datos " + tableDetalle.getItemIds());
+		
+    	try {
+    		for(int i=0; i< tableDetalle.size(); i++){
+    			SolicitudDetalle solicitudDetalle = new SolicitudDetalle();
+    			solicitudDetalle.setCantidadColabor(Integer.parseInt(tableDetalle.getContainerProperty(i+1,"Cantidad").getValue().toString()));
+    			solicitudDetalle.setCodPerfil((String) tableDetalle.getContainerProperty(i+1,"Perfil").getValue());
+    			solicitudDetalle.setCodTecnologia((String) tableDetalle.getContainerProperty(i+1,"Tecnología").getValue());
+    			solicitudDetalle.setCodExperienciaRubro((String) tableDetalle.getContainerProperty(i+1,"Experiencia en Rubro").getValue());
+    			
+    			listaDetalle[i] = solicitudDetalle;
+    			//Notification.show("lista " + listaDetalle.size());
+    			
+    		}
+    		
+        	//llamar a servicio GeneracionService
+    		int resultado = proxy.generarSolicitud(codCliente, codProyecto, listaDetalle);
+    		return resultado;
+    				
+        } catch (MyExcepcion ex) {  
+        //} catch (CloneNotSupportedException ex) {
+        	//throw new MyExcepcion (ex.getDescription(), ex.getMesssage());
+        	ex.printStackTrace();
+        	//ex.getMessage("ERROR : " + SolicitudService.class.getName());
+            //Logger.getLogger(ContactService.class.getName()).log(
+            //        Level.SEVERE, null, ex);
+        }
+		
+		
+		return 0;
 	}
 
 }
