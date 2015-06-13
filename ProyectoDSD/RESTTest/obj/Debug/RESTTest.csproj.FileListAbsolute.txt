@@ -1,0 +1,24 @@
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTTest\bin\Debug\RESTTest.dll
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTTest\bin\Debug\RESTTest.pdb
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTTest\obj\Debug\RESTTest.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTTest\obj\Debug\RESTTest.dll
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTTest\obj\Debug\RESTTest.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTTest\bin\Debug\RESTTest.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTTest\bin\Debug\RESTTest.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTTest\obj\Debug\RESTTest.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTTest\obj\Debug\RESTTest.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTTest\obj\Debug\RESTTest.csprojResolveAssemblyReference.cache
+E:\ProyectoDSD\RESTTest\bin\Debug\RESTTest.dll
+E:\ProyectoDSD\RESTTest\bin\Debug\RESTTest.pdb
+E:\ProyectoDSD\RESTTest\obj\Debug\RESTTest.csprojResolveAssemblyReference.cache
+E:\ProyectoDSD\RESTTest\obj\Debug\RESTTest.dll
+E:\ProyectoDSD\RESTTest\obj\Debug\RESTTest.pdb
+E:\DSD\ProyectoDSD\RESTTest\bin\Debug\RESTTest.dll
+E:\DSD\ProyectoDSD\RESTTest\bin\Debug\RESTTest.pdb
+E:\DSD\ProyectoDSD\RESTTest\obj\Debug\RESTTest.dll
+E:\DSD\ProyectoDSD\RESTTest\obj\Debug\RESTTest.pdb
+C:\UPC\ProyectoDSD\RESTTest\bin\Debug\RESTTest.dll
+C:\UPC\ProyectoDSD\RESTTest\bin\Debug\RESTTest.pdb
+C:\UPC\ProyectoDSD\RESTTest\obj\Debug\RESTTest.csprojResolveAssemblyReference.cache
+C:\UPC\ProyectoDSD\RESTTest\obj\Debug\RESTTest.dll
+C:\UPC\ProyectoDSD\RESTTest\obj\Debug\RESTTest.pdb

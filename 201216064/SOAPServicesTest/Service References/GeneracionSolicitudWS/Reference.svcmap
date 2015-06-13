@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="083910a0-304b-4b4f-9b5b-7ab15fb3956a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:40512/CrearSolicitud.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CrearSolicitud.xsd" MetadataType="Schema" ID="2925cd7a-59d8-4b58-8b3f-3878e07f8c8e" SourceId="1" SourceUrl="http://localhost:40512/CrearSolicitud.svc?xsd=xsd2" />
+    <MetadataFile FileName="CrearSolicitud1.xsd" MetadataType="Schema" ID="8b8e3bc0-5e1a-4519-b0d2-c053870888a4" SourceId="1" SourceUrl="http://localhost:40512/CrearSolicitud.svc?xsd=xsd0" />
+    <MetadataFile FileName="CrearSolicitud.wsdl" MetadataType="Wsdl" ID="6cbc34ed-4a47-4d4f-9ee6-d4ea32b18a96" SourceId="1" SourceUrl="http://localhost:40512/CrearSolicitud.svc?wsdl" />
+    <MetadataFile FileName="CrearSolicitud2.xsd" MetadataType="Schema" ID="7abebdf6-5b02-497a-b96b-5c5b720276d1" SourceId="1" SourceUrl="http://localhost:40512/CrearSolicitud.svc?xsd=xsd1" />
+    <MetadataFile FileName="CrearSolicitud.disco" MetadataType="Disco" ID="ac097941-a5e9-46f1-af8e-55ee1da02f8c" SourceId="1" SourceUrl="http://localhost:40512/CrearSolicitud.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

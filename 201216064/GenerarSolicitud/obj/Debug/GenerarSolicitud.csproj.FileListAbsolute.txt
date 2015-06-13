@@ -1,0 +1,24 @@
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.csprojResolveAssemblyReference.cache
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\bin\GenerarSolicitud.dll.config
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\bin\GenerarSolicitud.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\bin\GenerarSolicitud.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\bin\Iesi.Collections.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\bin\NHibernate.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\bin\GenerarSolicitud.dll.config
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\bin\GenerarSolicitud.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\bin\GenerarSolicitud.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\bin\Iesi.Collections.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\bin\NHibernate.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.csprojResolveAssemblyReference.cache
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.pdb
+J:\UPC\Proyecto\201216064\GenerarSolicitud\bin\GenerarSolicitud.dll.config
+J:\UPC\Proyecto\201216064\GenerarSolicitud\bin\GenerarSolicitud.dll
+J:\UPC\Proyecto\201216064\GenerarSolicitud\bin\GenerarSolicitud.pdb
+J:\UPC\Proyecto\201216064\GenerarSolicitud\bin\Iesi.Collections.dll
+J:\UPC\Proyecto\201216064\GenerarSolicitud\bin\NHibernate.dll
+J:\UPC\Proyecto\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.csprojResolveAssemblyReference.cache
+J:\UPC\Proyecto\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.dll
+J:\UPC\Proyecto\201216064\GenerarSolicitud\obj\Debug\GenerarSolicitud.pdb

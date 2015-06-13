@@ -1,0 +1,34 @@
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTServices\bin\RESTServices.dll.config
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTServices\bin\RESTServices.dll
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTServices\bin\RESTServices.pdb
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTServices\obj\Debug\RESTServices.dll
+c:\users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTServices\obj\Debug\RESTServices.pdb
+C:\Users\user\documents\visual studio 2013\Projects\ProyectoDSDS4\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTServices\bin\RESTServices.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTServices\bin\RESTServices.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTServices\bin\RESTServices.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTServices\obj\Debug\RESTServices.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\ProyectoDSDS4_Git\Javanet\ProyectoDSDS4\RESTServices\obj\Debug\RESTServices.pdb
+E:\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+E:\ProyectoDSD\RESTServices\bin\RESTServices.dll
+E:\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+E:\ProyectoDSD\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+E:\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+E:\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb
+E:\DSD\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+E:\DSD\ProyectoDSD\RESTServices\bin\RESTServices.dll
+E:\DSD\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+E:\DSD\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+E:\DSD\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb
+C:\UPC\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+C:\UPC\ProyectoDSD\RESTServices\bin\RESTServices.dll
+C:\UPC\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+C:\UPC\ProyectoDSD\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+C:\UPC\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+C:\UPC\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb
+C:\Users\Marina\Source\Repos\Javanet\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+C:\Users\Marina\Source\Repos\Javanet\ProyectoDSD\RESTServices\bin\RESTServices.dll
+C:\Users\Marina\Source\Repos\Javanet\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+C:\Users\Marina\Source\Repos\Javanet\ProyectoDSD\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+C:\Users\Marina\Source\Repos\Javanet\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+C:\Users\Marina\Source\Repos\Javanet\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb

@@ -1,0 +1,9 @@
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTTest\bin\Debug\RESTTest.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTTest\bin\Debug\RESTTest.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTTest\obj\Debug\RESTTest.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTTest\obj\Debug\RESTTest.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTTest\bin\Debug\RESTTest.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTTest\bin\Debug\RESTTest.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTTest\obj\Debug\RESTTest.csprojResolveAssemblyReference.cache
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTTest\obj\Debug\RESTTest.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTTest\obj\Debug\RESTTest.pdb

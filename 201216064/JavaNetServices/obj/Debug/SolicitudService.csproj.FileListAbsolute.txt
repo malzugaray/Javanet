@@ -1,0 +1,32 @@
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\bin\JavaNetServices.dll.config
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\bin\JavaNetServices.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\bin\JavaNetServices.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\bin\Iesi.Collections.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\bin\NHibernate.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\obj\Debug\SolicitudService.csprojResolveAssemblyReference.cache
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\obj\Debug\JavaNetServices.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\201216064\JavaNetServices\obj\Debug\JavaNetServices.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\bin\JavaNetServices.dll.config
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\bin\JavaNetServices.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\bin\JavaNetServices.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\bin\Iesi.Collections.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\bin\NHibernate.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\obj\Debug\SolicitudService.csprojResolveAssemblyReference.cache
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\obj\Debug\JavaNetServices.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\201216064\JavaNetServices\obj\Debug\JavaNetServices.pdb
+J:\UPC\Proyecto\201216064\JavaNetServices\bin\JavaNetServices.dll.config
+J:\UPC\Proyecto\201216064\JavaNetServices\bin\JavaNetServices.dll
+J:\UPC\Proyecto\201216064\JavaNetServices\bin\JavaNetServices.pdb
+J:\UPC\Proyecto\201216064\JavaNetServices\bin\Iesi.Collections.dll
+J:\UPC\Proyecto\201216064\JavaNetServices\bin\NHibernate.dll
+J:\UPC\Proyecto\201216064\JavaNetServices\obj\Debug\SolicitudService.csprojResolveAssemblyReference.cache
+J:\UPC\Proyecto\201216064\JavaNetServices\obj\Debug\JavaNetServices.dll
+J:\UPC\Proyecto\201216064\JavaNetServices\obj\Debug\JavaNetServices.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\bin\JavaNetServices.dll.config
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\bin\JavaNetServices.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\bin\JavaNetServices.pdb
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\bin\Iesi.Collections.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\bin\NHibernate.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\obj\Debug\SolicitudService.csprojResolveAssemblyReference.cache
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\obj\Debug\JavaNetServices.dll
+D:\UPC\Ciclo 7\Desarrollo para Sistemas Distribuidos\Proyecto\Git_Net\Javanet\Javanet\Javanet\201216064\JavaNetServices\obj\Debug\JavaNetServices.pdb

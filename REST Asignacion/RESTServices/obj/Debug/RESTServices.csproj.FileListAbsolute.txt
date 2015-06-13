@@ -1,0 +1,22 @@
+E:\Clase 7\ProyectoDSD\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+E:\Clase 7\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+E:\Clase 7\ProyectoDSD\RESTServices\bin\RESTServices.dll
+E:\Clase 7\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+E:\Clase 7\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+E:\Clase 7\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb
+E:\Clase 8\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+E:\Clase 8\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb
+E:\Clase 8\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+E:\Clase 8\ProyectoDSD\RESTServices\bin\RESTServices.dll
+E:\Clase 8\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTServices\obj\Debug\RESTServices.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTServices\obj\Debug\RESTServices.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTServices\bin\RESTServices.dll.config
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTServices\bin\RESTServices.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTServices\bin\RESTServices.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Clase 8\ProyectoDSD\RESTServices\obj\Debug\RESTServices.csprojResolveAssemblyReference.cache
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTServices\obj\Debug\RESTServices.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTServices\obj\Debug\RESTServices.pdb
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTServices\bin\RESTServices.dll.config
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTServices\bin\RESTServices.dll
+C:\Users\Mercedes\Google Drive\UPC\6to Ciclo\Desarrollo de sistemas distribuidos\Proyecto\REST Service\RESTServices\bin\RESTServices.pdb

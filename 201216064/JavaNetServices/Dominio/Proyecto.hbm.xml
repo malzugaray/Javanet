@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SolicitudService"
+                   namespace="SolicitudService.Dominio"
+                   default-lazy="false">
+  <class name="Proyecto" table="t_proyecto">
+    <id name="CodProyecto" column="codProyecto">
+      <generator class="increment" />
+    </id>
+    <property name="NombreProyecto" column="nombreProyecto" />
+    <property name="Cliente" column="codCliente" />
+    <property name="Estado" column="estado" />
+  </class>
+</hibernate-mapping>
